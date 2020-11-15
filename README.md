@@ -33,7 +33,9 @@ Dataset consists of the following columns:
 - java
 - Others
 
-The project makes use of classification algorithms to classify the salary of an Individual based on the Skill set and Job Position in an organization
+The project makes use of classification algorithms to classify the salary of an Individual based on the Skill set and Job Position in an organization.
+
+NOTE: The data cleaning code is not added as the main focus was the implementation of Classification Algorithms. However both the raw and clean datasets are uploaded. So anyone intending to use the project can manipulate and utilize the datasets as per their use.
 
 # Machine Learning algorithms used for classification
 1. Naive Bayes Classifier
