@@ -47,4 +47,5 @@ NOTE: The data cleaning code is not added as the main focus was the implementati
 2. Python
 3. EXCEL (for Naive Bayes only)
 
+# GUI (Optional)
 GUI was designed using tkinter, python.
