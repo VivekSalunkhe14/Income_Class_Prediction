@@ -1,6 +1,8 @@
 # IncomeClassPrediction
 This project aims to classify the Income Group of a Data Science Individual using classification algorithms. The Income is primarily divided into 3 classes i.e. Low, Medium and High.
 
+#Live Demo
+https://income-class-prediction.herokuapp.com/
 
 # Dataset
 Dataset https://www.kaggle.com/elroyggj/indeed-dataset-data-scientistanalystengineer?select=indeed_job_dataset.csv
