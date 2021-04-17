@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href={{url_for('static',filename='predictor.css')}}>
+    <title>Income Class Prediction</title>
+</head>
+<body>
+    <section id="prediction-form">
+        <form class="form" action="/predict", method="POST">
+            <h1 class="my-3 text-center">Income Class Predictor</h1>
+            <div class="row">
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="job_type" class="job_type" name="job_type">Job Type: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="job_type" id="job_type" name="job_type" aria-label="job_type">
+                        <option selected>Select Job Type</option>
+                        <option value= 1>data_analyst</option>
+                        <option value= 2>data_engineer</option>
+                        <option value= 3>data_scientist</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="python" class="python" name="python">Python: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="python" id="python" name="python" aria-label="python">
+                        <option selected>Python</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="sql" class="sql" name="sql">SQL: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="sql" id="sql" name="sql" aria-label="sql">
+                        <option selected>SQL</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="ml" class="ml" name="ml">Machine Learning: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="ml" id="ml" name="ml" aria-label="ml">
+                        <option selected>Machine Learning</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="r" class="r" name="r">R: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="r" id="r" name="r" aria-label="r">
+                        <option selected>R</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="hadoop" class="hadoop" name="hadoop">Hadoop: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="hadoop" id="hadoop" name="hadoop" aria-label="hadoop">
+                        <option selected>Hadoop</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="tableau" class="tableau" name="tableau">Tableau: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="tableau" id="tableau" name="tableau" aria-label="tableau">
+                        <option selected>Tableau</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="sas" class="sas" name="sas">SAS: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="sas" id="sas" name="sas" aria-label="sas">
+                        <option selected>SAS</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="spark" class="spark" name="spark">Spark: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="spark" id="spark" name="spark" aria-label="spark">
+                        <option selected>Spark</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="java" class="java" name="java">Java: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="java" id="java" name="java" aria-label="java">
+                        <option selected>Java</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2 md-form">
+                    <label for="others" class="others" name="others">Others: </label>
+				</div>
+				<div class="col-md-3 my-2 md-form">
+                    <select class="others" id="others" name="others" aria-label="others">
+                        <option selected>Others</option>
+                        <option value= 1>Yes</option>
+                        <option value= 0>No</option>
+                    </select>
+                </div>
+                <div class="col-md-3 my-2"></div>
+				
+				<br/><br/>
+				
+				<div class="col-md-3 my-2"></div>
+				<div class="col-md-3 my-2">
+                    <button type="submit" class="btn btn-info button">Predict</button>
+                </div>
+				<div class="col-md-5 my-2 md-form">
+                    <div class="results">
+	
+					{% if prediction == 'Low'%}
+					<h5= style="color:#4bb54b;">You belong to Low Income Class</h5>
+					{% elif prediction == 'Medium'%}
+					<h5 style="color:#4bb54b;">Result:You belong to Medium Income Class</h5>
+					{% elif prediction == 'High' %}
+					<h5 style="color:#4bb54b;">You belong to High Medium Class</h5>
+					{% else %}
+					<h5 style="color:red;">*Please enter the above details to view your result</h5>
+					{% endif %}
+
+					</div>
+                </div>
+                <div class="col-md-1 my-2"></div>
+			</div>	
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
