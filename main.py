@@ -10,7 +10,7 @@ model = pickle.load(open("xgb_model.pkl", "rb"))
 print("Model Loaded")
 
 
-@app.route("/", methods=['GET'])
+@app.route("/")
 def home():
     return render_template("index.html")
 
