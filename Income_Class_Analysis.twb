@@ -1,0 +1,1428 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='indeed_job_dataset (indeed_job_dataset)' inline='true' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='indeed_job_dataset' name='excel-direct.0x4dtu917myzw4159xx780p3ts23'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/vivek/Desktop/STUDY/indeed_job_dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0x4dtu917myzw4159xx780p3ts23' name='indeed_job_dataset' table='[indeed_job_dataset$]' type='table'>
+          <columns gridOrigin='A1:U5716:no:A1:U5716:0' header='yes' outcome='6'>
+            <column datatype='string' name='Job_Title' ordinal='0' />
+            <column datatype='string' name='Job_Type' ordinal='1' />
+            <column datatype='string' name='OldSalary' ordinal='2' />
+            <column datatype='integer' name='No of Skills' ordinal='3' />
+            <column datatype='string' name='Salary' ordinal='4' />
+            <column datatype='integer' name='SalaryGrp' ordinal='5' />
+            <column datatype='integer' name='JobGrp' ordinal='6' />
+            <column datatype='string' name='Skill' ordinal='7' />
+            <column datatype='integer' name='python' ordinal='8' />
+            <column datatype='integer' name='sql' ordinal='9' />
+            <column datatype='integer' name='machine learning' ordinal='10' />
+            <column datatype='integer' name='r' ordinal='11' />
+            <column datatype='integer' name='hadoop' ordinal='12' />
+            <column datatype='integer' name='tableau' ordinal='13' />
+            <column datatype='integer' name='sas' ordinal='14' />
+            <column datatype='integer' name='spark' ordinal='15' />
+            <column datatype='integer' name='java' ordinal='16' />
+            <column datatype='integer' name='Others' ordinal='17' />
+            <column datatype='string' name='Company' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0x4dtu917myzw4159xx780p3ts23' name='indeed_job_dataset' table='[indeed_job_dataset$]' type='table'>
+          <columns gridOrigin='A1:U5716:no:A1:U5716:0' header='yes' outcome='6'>
+            <column datatype='string' name='Job_Title' ordinal='0' />
+            <column datatype='string' name='Job_Type' ordinal='1' />
+            <column datatype='string' name='OldSalary' ordinal='2' />
+            <column datatype='integer' name='No of Skills' ordinal='3' />
+            <column datatype='string' name='Salary' ordinal='4' />
+            <column datatype='integer' name='SalaryGrp' ordinal='5' />
+            <column datatype='integer' name='JobGrp' ordinal='6' />
+            <column datatype='string' name='Skill' ordinal='7' />
+            <column datatype='integer' name='python' ordinal='8' />
+            <column datatype='integer' name='sql' ordinal='9' />
+            <column datatype='integer' name='machine learning' ordinal='10' />
+            <column datatype='integer' name='r' ordinal='11' />
+            <column datatype='integer' name='hadoop' ordinal='12' />
+            <column datatype='integer' name='tableau' ordinal='13' />
+            <column datatype='integer' name='sas' ordinal='14' />
+            <column datatype='integer' name='spark' ordinal='15' />
+            <column datatype='integer' name='java' ordinal='16' />
+            <column datatype='integer' name='Others' ordinal='17' />
+            <column datatype='string' name='Company' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U5716:no:A1:U5716:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job_Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job_Title]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Job_Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job_Type]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Job_Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OldSalary</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OldSalary]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>OldSalary</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No of Skills</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No of Skills]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>No of Skills</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalaryGrp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SalaryGrp]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>SalaryGrp</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobGrp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JobGrp]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>JobGrp</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Skill</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Skill]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Skill</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>python</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[python]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>python</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sql</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sql]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>sql</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>machine learning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[machine learning]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>machine learning</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>r</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[r]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>r</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hadoop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hadoop]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>hadoop</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tableau</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tableau]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>tableau</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sas]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>sas</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>spark</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[spark]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>spark</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>java</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[java]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>java</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[indeed_job_dataset]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:machine learning:qk]&quot;' value='% ML' />
+          <alias key='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]&quot;' value='%Python' />
+          <alias key='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:r:qk]&quot;' value='% R' />
+          <alias key='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:sql:qk]&quot;' value='% SQL' />
+        </aliases>
+      </column>
+      <column caption='Job Grp' datatype='integer' name='[JobGrp]' role='measure' type='quantitative' />
+      <column caption='Job Title' datatype='string' name='[Job_Title]' role='dimension' type='nominal' />
+      <column caption='Job Type' datatype='string' name='[Job_Type]' role='dimension' type='nominal' />
+      <column caption='Old Salary' datatype='string' name='[OldSalary]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Others]' role='measure' type='quantitative' />
+      <column caption='Salary Grp' datatype='integer' name='[SalaryGrp]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='indeed_job_dataset' datatype='table' name='[__tableau_internal_object_id__].[indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3]' role='measure' type='quantitative' />
+      <column caption='Hadoop' datatype='integer' name='[hadoop]' role='measure' type='quantitative' />
+      <column caption='Java' datatype='integer' name='[java]' role='measure' type='quantitative' />
+      <column caption='Machine Learning' datatype='integer' name='[machine learning]' role='measure' type='quantitative' />
+      <column caption='Python' datatype='integer' name='[python]' role='measure' type='quantitative' />
+      <column caption='R' datatype='integer' name='[r]' role='measure' type='quantitative' />
+      <column caption='Sas' datatype='integer' name='[sas]' role='measure' type='quantitative' />
+      <column caption='Spark' datatype='integer' name='[spark]' role='measure' type='quantitative' />
+      <column caption='Sql' datatype='integer' name='[sql]' role='measure' type='quantitative' />
+      <column caption='Tableau' datatype='integer' name='[tableau]' role='measure' type='quantitative' />
+      <column-instance column='[Others]' derivation='Avg' name='[avg:Others:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hadoop]' derivation='Avg' name='[avg:hadoop:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[java]' derivation='Avg' name='[avg:java:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[machine learning]' derivation='Avg' name='[avg:machine learning:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[python]' derivation='Avg' name='[avg:python:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[r]' derivation='Avg' name='[avg:r:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sas]' derivation='Avg' name='[avg:sas:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[spark]' derivation='Avg' name='[avg:spark:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sql]' derivation='Avg' name='[avg:sql:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[tableau]' derivation='Avg' name='[avg:tableau:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[python]' derivation='Count' name='[cnt:python:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[python]' derivation='CountD' name='[ctd:python:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[python]' derivation='None' name='[none:python:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Others]' derivation='Sum' name='[sum:Others:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hadoop]' derivation='Sum' name='[sum:hadoop:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[java]' derivation='Sum' name='[sum:java:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[machine learning]' derivation='Sum' name='[sum:machine learning:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[python]' derivation='Sum' name='[sum:python:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[r]' derivation='Sum' name='[sum:r:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sas]' derivation='Sum' name='[sum:sas:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[spark]' derivation='Sum' name='[sum:spark:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sql]' derivation='Sum' name='[sum:sql:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[tableau]' derivation='Sum' name='[sum:tableau:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:machine learning:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:machine learning:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:hadoop:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:hadoop:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:sql:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:sql:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:spark:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:spark:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:Others:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:Others:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:tableau:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:tableau:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:r:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:r:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:java:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:java:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[cnt:python:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[ctd:python:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:python:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:python:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:sas:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[sum:sas:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='indeed_job_dataset' id='indeed!job!dataset_1FCEBD86C64E4557B74AA6C6C358CEA3'>
+            <properties context=''>
+              <relation connection='excel-direct.0x4dtu917myzw4159xx780p3ts23' name='indeed_job_dataset' table='[indeed_job_dataset$]' type='table'>
+                <columns gridOrigin='A1:U5716:no:A1:U5716:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Job_Title' ordinal='0' />
+                  <column datatype='string' name='Job_Type' ordinal='1' />
+                  <column datatype='string' name='OldSalary' ordinal='2' />
+                  <column datatype='integer' name='No of Skills' ordinal='3' />
+                  <column datatype='string' name='Salary' ordinal='4' />
+                  <column datatype='integer' name='SalaryGrp' ordinal='5' />
+                  <column datatype='integer' name='JobGrp' ordinal='6' />
+                  <column datatype='string' name='Skill' ordinal='7' />
+                  <column datatype='integer' name='python' ordinal='8' />
+                  <column datatype='integer' name='sql' ordinal='9' />
+                  <column datatype='integer' name='machine learning' ordinal='10' />
+                  <column datatype='integer' name='r' ordinal='11' />
+                  <column datatype='integer' name='hadoop' ordinal='12' />
+                  <column datatype='integer' name='tableau' ordinal='13' />
+                  <column datatype='integer' name='sas' ordinal='14' />
+                  <column datatype='integer' name='spark' ordinal='15' />
+                  <column datatype='integer' name='java' ordinal='16' />
+                  <column datatype='integer' name='Others' ordinal='17' />
+                  <column datatype='string' name='Company' ordinal='18' />
+                  <column datatype='real' name='F20' ordinal='19' />
+                  <column datatype='real' name='F21' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Contribution of Top 4 Core Skills'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Contribution of Top 4 Core Skills</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeed_job_dataset (indeed_job_dataset)' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tyl6f30xzl7og122jpdf0ru2bfq'>
+            <column datatype='string' name='[Salary]' role='dimension' type='nominal' />
+            <column-instance column='[machine learning]' derivation='Avg' name='[avg:machine learning:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[python]' derivation='Avg' name='[avg:python:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[r]' derivation='Avg' name='[avg:r:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sql]' derivation='Avg' name='[avg:sql:qk]' pivot='key' type='quantitative' />
+            <column caption='Machine Learning' datatype='integer' name='[machine learning]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='None' name='[none:Salary:nk]' pivot='key' type='nominal' />
+            <column caption='Python' datatype='integer' name='[python]' role='measure' type='quantitative' />
+            <column caption='R' datatype='integer' name='[r]' role='measure' type='quantitative' />
+            <column caption='Sql' datatype='integer' name='[sql]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:machine learning:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:r:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:sql:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[Multiple Values]' scope='rows' value='Contribution of Top 4 Skills' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]' value='84' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[Multiple Values]</rows>
+        <cols>([federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk] / [federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{CF6DE22D-A251-42F7-BE61-26D5A096E657}' />
+    </worksheet>
+    <worksheet name='Distribution of different Salary Groups'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of different Salary Groups</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeed_job_dataset (indeed_job_dataset)' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tyl6f30xzl7og122jpdf0ru2bfq'>
+            <column caption='Job Grp' datatype='integer' name='[JobGrp]' role='measure' type='quantitative' />
+            <column caption='Job Type' datatype='string' name='[Job_Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[No of Skills]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Salary]' role='dimension' type='nominal' />
+            <column-instance column='[No of Skills]' derivation='Avg' name='[avg:No of Skills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JobGrp]' derivation='Count' name='[cnt:JobGrp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job_Type]' derivation='None' name='[none:Job_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Salary]' derivation='None' name='[none:Salary:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[cnt:JobGrp:qk]' />
+              <color column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[cnt:JobGrp:qk]' />
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]' />
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Job_Type:nk]' />
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[cnt:JobGrp:qk]' />
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:No of Skills:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{38B19E53-4E5E-4163-A6AA-FD45591F75CC}' />
+    </worksheet>
+    <worksheet name='Impact on Salary Group based on Average No. of Skills'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Impact on Salary Group based on Average No. of Skills
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeed_job_dataset (indeed_job_dataset)' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tyl6f30xzl7og122jpdf0ru2bfq'>
+            <column datatype='integer' name='[No of Skills]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Salary]' role='dimension' type='nominal' />
+            <column-instance column='[No of Skills]' derivation='Avg' name='[avg:No of Skills:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Salary]' derivation='None' name='[none:Salary:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:No of Skills:qk]</rows>
+        <cols>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</cols>
+      </table>
+      <simple-id uuid='{CC579915-27D4-433B-92B7-5CD8B6D95114}' />
+    </worksheet>
+    <worksheet name='Percentage Contribution of Python towards Salary Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percentage Contribution of Python towards Salary Group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeed_job_dataset (indeed_job_dataset)' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tyl6f30xzl7og122jpdf0ru2bfq'>
+            <column caption='Job Type' datatype='string' name='[Job_Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Salary]' role='dimension' type='nominal' />
+            <column-instance column='[python]' derivation='Avg' name='[avg:python:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job_Type]' derivation='None' name='[none:Job_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Salary]' derivation='None' name='[none:Salary:nk]' pivot='key' type='nominal' />
+            <column caption='Python' datatype='integer' name='[python]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]' scope='rows' value='Percentage contribution of Python' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Job_Type:nk]' />
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]</rows>
+        <cols>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</cols>
+      </table>
+      <simple-id uuid='{77C7CEFA-09C2-458C-ACDC-5D6BD6C4E415}' />
+    </worksheet>
+    <worksheet name='Percentage contribution of Top 4 Core Skills'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Percentage contribution of Top 4 Core Skills</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeed_job_dataset (indeed_job_dataset)' name='federated.0tyl6f30xzl7og122jpdf0ru2bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tyl6f30xzl7og122jpdf0ru2bfq'>
+            <column datatype='string' name='[Salary]' role='dimension' type='nominal' />
+            <column-instance column='[hadoop]' derivation='Avg' name='[avg:hadoop:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[machine learning]' derivation='Avg' name='[avg:machine learning:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[python]' derivation='Avg' name='[avg:python:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[r]' derivation='Avg' name='[avg:r:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sql]' derivation='Avg' name='[avg:sql:qk]' pivot='key' type='quantitative' />
+            <column caption='Hadoop' datatype='integer' name='[hadoop]' role='measure' type='quantitative' />
+            <column caption='Machine Learning' datatype='integer' name='[machine learning]' role='measure' type='quantitative' />
+            <column-instance column='[Salary]' derivation='None' name='[none:Salary:nk]' pivot='key' type='nominal' />
+            <column caption='Python' datatype='integer' name='[python]' role='measure' type='quantitative' />
+            <column caption='R' datatype='integer' name='[r]' role='measure' type='quantitative' />
+            <column caption='Sql' datatype='integer' name='[sql]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:machine learning:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:r:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:sql:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:machine learning:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:r:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:hadoop:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]' value='264' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</rows>
+        <cols>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{6D124059-1B9A-4A1C-B3AC-34166E1CA093}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Percentage contribution of Top 4 Core Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9E0284FD-2DCA-4C86-8795-9AC55D86F03B}' />
+    </window>
+    <window class='worksheet' name='Contribution of Top 4 Core Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[:Measure Names]</field>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[avg:python:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C5D97AD1-BA64-462C-B949-D9F8FD51AE29}' />
+    </window>
+    <window class='worksheet' name='Distribution of different Salary Groups'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[cnt:JobGrp:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Job_Type:nk]</field>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A31D0BCA-A147-4C83-B975-65F7CEC0DFFB}' />
+    </window>
+    <window class='worksheet' name='Percentage Contribution of Python towards Salary Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Job_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Job_Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{86C56D50-B43E-465D-AABD-A4E5978EF80A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Impact on Salary Group based on Average No. of Skills'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tyl6f30xzl7og122jpdf0ru2bfq].[none:Salary:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B347A417-BC07-4564-A0AE-97903F3727DB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Contribution of Top 4 Core Skills' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Distribution of different Salary Groups' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Impact on Salary Group based on Average No. of Skills' width='192'>
+      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
+      /R/TVn0iixWRzQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Percentage Contribution of Python towards Salary Group' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='87' name='Percentage contribution of Top 4 Core Skills' width='192'>
+      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
+      eQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
